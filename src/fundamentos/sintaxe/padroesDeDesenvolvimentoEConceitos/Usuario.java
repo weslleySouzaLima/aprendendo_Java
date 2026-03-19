@@ -1,4 +1,4 @@
-package src.fundamentos.padroesDeDesenvolvimentoEConceitos;
+package src.fundamentos.sintaxe.padroesDeDesenvolvimentoEConceitos;
 
 public class Usuario {
 

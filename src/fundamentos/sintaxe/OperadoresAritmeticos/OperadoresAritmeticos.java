@@ -1,4 +1,4 @@
-package src.fundamentos.OperadoresAritmeticos;
+package src.fundamentos.sintaxe.OperadoresAritmeticos;
 
 public class OperadoresAritmeticos {
 

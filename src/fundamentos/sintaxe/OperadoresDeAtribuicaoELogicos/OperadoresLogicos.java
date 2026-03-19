@@ -1,4 +1,4 @@
-package src.fundamentos.OperadoresDeAtribuicaoELogicos;
+package src.fundamentos.sintaxe.OperadoresDeAtribuicaoELogicos;
 
 public class OperadoresLogicos {
 

@@ -1,4 +1,4 @@
-package src.fundamentos.keywordsETiposPrimitivos;
+package src.fundamentos.sintaxe.keywordsETiposPrimitivos;
 
 public class TiposPrimitivos {
 

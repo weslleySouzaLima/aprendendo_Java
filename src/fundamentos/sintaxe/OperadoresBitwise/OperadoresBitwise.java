@@ -1,4 +1,4 @@
-package src.fundamentos.OperadoresBitwise;
+package src.fundamentos.sintaxe.OperadoresBitwise;
 
 public class OperadoresBitwise {
 
