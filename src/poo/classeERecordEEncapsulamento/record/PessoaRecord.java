@@ -1,4 +1,4 @@
-package src.classeERecordEEncapsulamento.record;
+package src.poo.classeERecordEEncapsulamento.record;
 
 /*
 ========================================

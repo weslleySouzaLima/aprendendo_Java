@@ -1,4 +1,4 @@
-package src.classeERecordEEncapsulamento.encapsulamento;
+package src.poo.classeERecordEEncapsulamento.encapsulamento;
 
 public class Modificadores {
     /*

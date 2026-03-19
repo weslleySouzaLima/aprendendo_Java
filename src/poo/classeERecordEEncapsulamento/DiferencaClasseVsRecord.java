@@ -1,4 +1,4 @@
-package src.classeERecordEEncapsulamento;
+package src.poo.classeERecordEEncapsulamento;
 
 public class DiferencaClasseVsRecord {
     /*
