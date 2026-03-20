@@ -1,0 +1,23 @@
+/*
+========================================
+ARRAY vs LIST
+========================================
+
+ARRAY:
+- Tamanho fixo
+- Mais simples
+- Menos flexível
+
+LIST:
+- Tamanho dinâmico
+- Mais usada no mercado
+- Possui métodos prontos
+
+----------------------------------------
+RESUMO:
+----------------------------------------
+
+Use:
+- Array -> casos simples
+- List  -> aplicações reais (backend)
+*/

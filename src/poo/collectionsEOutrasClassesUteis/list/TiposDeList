@@ -1,0 +1,79 @@
+/*
+========================================
+TIPOS DE LIST
+========================================
+
+----------------------------------------
+1. ArrayList
+----------------------------------------
+
+- Mais usado no mercado
+- Baseado em array
+- Acesso rápido (get)
+- Inserção no meio pode ser mais lenta
+
+QUANDO USAR:
+-> Leitura frequente
+-> Acesso por índice
+-> Lista simples (CRUD comum)
+
+----------------------------------------
+2. LinkedList
+----------------------------------------
+
+- Baseado em nós (estrutura encadeada)
+- Inserção e remoção mais rápidas
+- Acesso por índice mais lento
+
+QUANDO USAR:
+-> Muitas inserções e remoções
+-> Pouco acesso direto por índice
+
+----------------------------------------
+3. Vector (LEGADO)
+----------------------------------------
+
+- Thread-safe (sincronizado)
+- Mais lento
+- Quase não usado hoje
+
+QUANDO USAR:
+-> Evitar (existem opções melhores)
+
+----------------------------------------
+RESUMO PRÁTICO:
+----------------------------------------
+
+ArrayList:
+-> padrão do mercado ✔
+
+LinkedList:
+-> casos específicos de muita modificação
+
+Vector:
+-> legado ❌
+*/
+
+/*
+========================================
+BOA PRÁTICA
+========================================
+
+Sempre programe usando a interface:
+
+List<String> lista = new ArrayList<>();
+
+NÃO faça:
+
+ArrayList<String> lista = new ArrayList<>();
+
+----------------------------------------
+POR QUÊ?
+----------------------------------------
+
+Permite trocar a implementação depois:
+
+List<String> lista = new LinkedList<>();
+
+Sem quebrar o código
+*/

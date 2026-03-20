@@ -1,0 +1,28 @@
+/*
+========================================
+RESUMO GERAL
+========================================
+
+ARRAY:
+-> tamanho fixo
+-> simples
+
+LIST:
+-> tamanho dinâmico
+-> mais usado no backend
+
+SET:
+-> não permite duplicados
+-> usado para validação
+
+----------------------------------------
+DICA PROFISSIONAL:
+----------------------------------------
+
+List -> quando precisa de ordem e repetição
+Set  -> quando não pode ter duplicado
+
+Exemplo real:
+- Lista de usuários -> List
+- Emails únicos -> Set
+*/

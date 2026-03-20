@@ -1,0 +1,34 @@
+/*
+========================================
+RESUMO GERAL
+========================================
+
+MAP:
+-> estrutura chave -> valor
+
+NÃO permite:
+-> chaves duplicadas
+
+PERMITE:
+-> valores duplicados
+
+TIPOS:
+HashMap -> mais usado
+LinkedHashMap -> mantém ordem
+TreeMap -> ordenado
+
+----------------------------------------
+DICA PROFISSIONAL:
+----------------------------------------
+
+Use Map quando precisar:
+
+- Buscar rápido por chave
+- Representar dados tipo JSON
+- Trabalhar com IDs
+
+Exemplo real:
+ID -> Usuario
+CPF -> Cliente
+Email -> Conta
+*/

@@ -1,0 +1,19 @@
+/*
+========================================
+TIPOS DE SET
+========================================
+
+HashSet:
+-> Mais rápido
+-> Não mantém ordem
+
+LinkedHashSet:
+-> Mantém ordem de inserção
+
+TreeSet:
+-> Ordena automaticamente
+
+----------------------------------------
+EXEMPLO:
+----------------------------------------
+*/

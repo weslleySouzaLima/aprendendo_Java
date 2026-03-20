@@ -1,0 +1,89 @@
+/*
+========================================
+MAPA MENTAL COMPLETO - COLLECTIONS (JAVA)
+========================================
+
+Iterable
+|
+|-- Collection
+|   |
+|   |-- List (Ordenado / Permite duplicados)
+|   |   |
+|   |   |-- ArrayList
+|   |   |    -> Mais usado
+|   |   |    -> Rápido para leitura (get)
+|   |   |
+|   |   |-- LinkedList
+|   |   |    -> Melhor para inserções/remoções
+|   |   |
+|   |   |-- Vector (LEGADO)
+|   |        -> Sincronizado / evitar uso
+|   |
+|   |
+|   |-- Set (Não permite duplicados)
+|       |
+|       |-- HashSet
+|       |    -> Mais rápido
+|       |    -> Não mantém ordem
+|       |
+|       |-- LinkedHashSet
+|       |    -> Mantém ordem de inserção
+|       |
+|       |-- TreeSet
+|            -> Ordenado automaticamente
+|
+|
+|-- Map (NÃO faz parte de Collection)
+    |
+    |-- HashMap
+    |    -> Mais usado
+    |    -> Não mantém ordem
+    |
+    |-- LinkedHashMap
+    |    -> Mantém ordem de inserção
+    |
+    |-- TreeMap
+    |    -> Ordenado pela chave
+    |
+    |-- Hashtable (LEGADO)
+         -> Sincronizado / evitar uso
+
+----------------------------------------
+OBSERVAÇÕES IMPORTANTES
+----------------------------------------
+
+- List e Set fazem parte de Collection
+- Map NÃO faz parte de Collection
+- Todos fazem parte do framework Collections
+
+----------------------------------------
+RESUMO PRÁTICO
+----------------------------------------
+
+List:
+-> Ordem + permite repetição
+
+Set:
+-> Não permite duplicados
+
+Map:
+-> Estrutura chave -> valor
+
+----------------------------------------
+DICA PROFISSIONAL (NÍVEL BACKEND)
+----------------------------------------
+
+ArrayList  -> padrão para listas
+HashSet    -> controle de duplicados
+HashMap    -> buscas rápidas (muito usado em APIs)
+
+----------------------------------------
+REGRA DE OURO
+----------------------------------------
+
+Sempre use a interface:
+
+List<String> lista = new ArrayList<>();
+Set<String> set = new HashSet<>();
+Map<String, String> map = new HashMap<>();
+*/
